@@ -2,6 +2,22 @@
 
 Este projeto implementa o controle de um **servomotor** utilizando o **módulo PWM** do microcontrolador **RP2040** da **Raspberry Pi Pico W**, simulado no ambiente **Wokwi**. O código foi desenvolvido em **C** com o **Pico SDK** e executado no **VS Code**.
 
+# Comportamento do LED
+
+Controle de Intensidade:
+O PWM (modulação por largura de pulso) pode ser usado para controlar a intensidade do LED. O valor que você define em pwm_set_gpio_level(SERVO_PIN, level) controlará a quantidade de tempo que o LED fica aceso em um ciclo de PWM.
+Um valor mais baixo resultará em uma menor intensidade (mais escuro), enquanto um valor mais alto resultará em uma maior intensidade (mais brilhante).
+
+# Ciclos de Luz:
+
+Ao invés de mover o servo motor entre os ângulos de 0°, 90° e 180°, você verá o LED acender em diferentes intensidades baseadas nas posições que o código define (500 µs, 1470 µs e 2400 µs) ao longo do tempo.
+
+# Exemplos de Comportamento
+
+LED em 0 graus (500 µs): O LED pode estar muito fraco ou quase apagado.
+LED em 90 graus (1470 µs): O LED acenderá a uma intensidade média.
+LED em 180 graus (2400 µs): O LED ficará bastante brilhante.
+
 ## 🛠 Configuração do Projeto
 
 ### 🔧 **Requisitos**

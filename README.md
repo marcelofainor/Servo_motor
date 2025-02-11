@@ -15,7 +15,9 @@ Ao invés de mover o servo motor entre os ângulos de 0°, 90° e 180°, você v
 # Exemplos de Comportamento
 
 LED em 0 graus (500 µs): O LED pode estar muito fraco ou quase apagado.
+
 LED em 90 graus (1470 µs): O LED acenderá a uma intensidade média.
+
 LED em 180 graus (2400 µs): O LED ficará bastante brilhante.
 
 ## 🛠 Configuração do Projeto

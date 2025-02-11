@@ -61,7 +61,7 @@ O projeto controla o ângulo do servomotor variando o **ciclo de trabalho (Duty 
 
 ## 🎥 Demonstração
 
-Confira o vídeo explicativo do projeto: 🔗 Link para o vídeo
+Confira o vídeo explicativo do projeto: 🔗 Link para o vídeo : https://youtu.be/JaKKEU1qM-k?si=Z6dhIb1Xo_J0lo78
 
 📜 Créditos
 Desenvolvido por Marcelo Barbosa de Almeida, com base nas diretrizes da disciplina Unidade 4 | Capítulo 7 – C7O123E ministrada pelo Prof. Dr. Ricardo Menezes Prates.

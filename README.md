@@ -36,3 +36,14 @@ O projeto controla o ângulo do servomotor variando o **ciclo de trabalho (Duty 
    ```sh
    git clone https://github.com/marcelofainor/Servo_motor.git
    cd Servo_motor
+
+2. Configure o Pico SDK conforme documentação oficial.
+
+3. Compile e rode o código no Wokwi via VS Code.
+
+## 🎥 Demonstração
+
+Confira o vídeo explicativo do projeto: 🔗 Link para o vídeo
+
+📜 Créditos
+Desenvolvido por Marcelo Barbosa de Almeida, com base nas diretrizes da disciplina Unidade 4 | Capítulo 7 – C7O123E ministrada pelo Prof. Dr. Ricardo Menezes Prates.
